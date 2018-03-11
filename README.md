@@ -3,7 +3,7 @@
 Given a set of query images and a set of store inventory images, we find the top-k similar inventory images that are the most 'similar' to the set of query images in an unsupervised way of training an autoencoder, then using its encoder to embed the images and perform kNN in to find 'similar' images. 
 
 <p align="center"> 
-#<img src="https://github.com/ankonzoid/artificio/blob/master/similar_images_AE/coverart/coverart.jpg" width="60%">
+
 </p>
 
 In this code, we train a convolutional autoencoder on 36 steakhouse food images (6 of each of steak, potato, french fries, salads, burger, asparagus), and make similar image food recommendations based on the above algorithm to achieve a result of:
